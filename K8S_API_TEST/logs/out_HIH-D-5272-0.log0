@@ -1,0 +1,36 @@
+2016-07-20 18:22:02,713 INFO  HIH-D-5272-0 : The Grinder version 3.11
+2016-07-20 18:22:02,724 INFO  HIH-D-5272-0 : Java(TM) SE Runtime Environment 1.8.0_20-b26: Java HotSpot(TM) 64-Bit Server VM (25.20-b23, mixed mode) on Windows 7 amd64 6.1
+2016-07-20 18:22:02,733 INFO  HIH-D-5272-0 : time zone is CST (+0800)
+2016-07-20 18:22:02,804 INFO  HIH-D-5272-0 : worker process 0
+2016-07-20 18:22:02,844 INFO  HIH-D-5272-0 : instrumentation agents: byte code transforming instrumenter for Jython 2.5; byte code transforming instrumenter for Java
+2016-07-20 18:22:04,559 INFO  HIH-D-5272-0 : running "k8s_api_java.py" using Jython 2.5.3 (2.5:c56500f08d34+, Aug 13 2012, 14:48:36) 
+[Java HotSpot(TM) 64-Bit Server VM (Oracle Corporation)]
+2016-07-20 18:22:04,967 INFO  HIH-D-5272-0 thread-0: starting, will do 1 run
+2016-07-20 18:22:04,968 INFO  HIH-D-5272-0 thread-3: starting, will do 1 run
+2016-07-20 18:22:04,976 INFO  HIH-D-5272-0 thread-1: starting, will do 1 run
+2016-07-20 18:22:04,980 INFO  HIH-D-5272-0 thread-2: starting, will do 1 run
+2016-07-20 18:22:04,981 INFO  HIH-D-5272-0 thread-4: starting, will do 1 run
+2016-07-20 18:22:04,981 INFO  HIH-D-5272-0 : start time is 1469010124981 ms since Epoch
+2016-07-20 18:22:05,498 INFO  HIH-D-5272-0 thread-1: finished 1 run
+2016-07-20 18:22:05,499 INFO  HIH-D-5272-0 thread-2: finished 1 run
+2016-07-20 18:22:05,498 INFO  HIH-D-5272-0 thread-4: finished 1 run
+2016-07-20 18:22:05,501 INFO  HIH-D-5272-0 thread-3: finished 1 run
+2016-07-20 18:22:05,508 INFO  HIH-D-5272-0 thread-0: finished 1 run
+2016-07-20 18:22:05,508 INFO  HIH-D-5272-0 : elapsed time is 527 ms
+2016-07-20 18:22:05,508 INFO  HIH-D-5272-0 : Final statistics for this process:
+2016-07-20 18:22:05,515 INFO  HIH-D-5272-0 : 
+             Tests        Errors       Mean Test    Test Time    TPS          
+                                       Time (ms)    Standard                  
+                                                    Deviation                 
+                                                    (ms)                      
+
+Test 3       0            5            -            0.00         0.00          "update RC, replicas 5->0, until success"
+Test 4       0            5            -            0.00         0.00          "delete RC"
+
+Totals       0            10           -            0.00         0.00         
+
+  Tests resulting in error only contribute to the Errors column.          
+  Statistics for individual tests can be found in the data file, including
+  (possibly incomplete) statistics for erroneous tests. Composite tests   
+  are marked with () and not included in the totals.                      
+
